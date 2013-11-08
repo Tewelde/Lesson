@@ -4,17 +4,16 @@ Tewelde G.HAGOS
 ##### LEAP YEAR FUNCTION 
 is.leap <- function(x){
   if (x%%400==0){
-    output=TRUE}
-  
-    else if (x%%100){
-      output=FALSE
-    }
-    else if (x%%4){
-      output=FALSE  
-    }
-    else{
-      output=FALSE  
-    }  
+  output=TRUE}
+  else if (x%%100){
+  output=FALSE
+  }
+  else if (x%%4){
+  output=FALSE  
+  }
+  else{
+  output=FALSE  
+  }  
  return(output)
 }
 
